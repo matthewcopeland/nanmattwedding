@@ -1,0 +1,45 @@
+/* Yes. I wrote a flat css file for this. */
+/* Honestly, I haven't written code in years. I can't believe I remembered how to do this. */
+
+html, body {
+	hight: 100%;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: white;
+	background: #222;
+}
+
+body {
+	padding: 20px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav ul {
+	display: flex;
+	width: 100;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
