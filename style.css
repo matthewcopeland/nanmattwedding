@@ -1,5 +1,8 @@
 /* Yes. I wrote a flat css file for this. */
 /* Honestly, I haven't written code in years. I can't believe I remembered how to do this. */
+* {
+	box-sizing: border-box;
+}
 
 html, body {
 	hight: 100%;
@@ -41,6 +44,10 @@ a {
 
 a:hover {
 	text-decoration: underline;
+}
+
+iframe {
+	max-width: 600px;
 }
 
 .rsvp {
