@@ -1,5 +1,10 @@
 /* Yes. I wrote a flat css file for this. */
 /* Honestly, I haven't written code in years. I can't believe I remembered how to do this. */
+
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+
+
+
 * {
 	box-sizing: border-box;
 }
@@ -15,6 +20,7 @@ html {
 	color: #ccc;
 	background: #222;
 	text-align: center;
+	font-family: 'Philosopher', sans-serif;
 }
 
 body {
