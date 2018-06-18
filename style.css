@@ -15,7 +15,7 @@ html {
 
 body {
 	padding: 20px;
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -32,7 +32,7 @@ ul, li {
 nav ul {
 	display: flex;
 	width: 100;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 a {
