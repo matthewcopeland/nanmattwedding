@@ -3,26 +3,24 @@
 
 html, body {
 	hight: 100%;
+	width: 100%;
+	margin: 0;
 }
 
 html {
-	margin: 0;
 	padding: 0;
-	width: 100%;
-	color: white;
+	color: #ccc;
 	background: #222;
 	text-align: center;
 }
 
 body {
 	padding: 20px;
-	max-width: 960px;
-	margin: 0 auto;
 }
 
-/*h1 {
+h1 {
 	text-align: center;
-}*/
+}
 
 ul, li {
 	margin: 0;
@@ -44,3 +42,16 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
+.rsvp {
+	color: white;
+	border: 1px solid white;
+	display: inline-block;
+	margin: 0 auto;
+	padding: .5em 3em;
+}
+
+.rsvp:hover {
+	text-decoration: none;
+}
+
