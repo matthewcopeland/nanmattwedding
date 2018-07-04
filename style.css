@@ -68,6 +68,7 @@ iframe {
 
 .corner {
 	position: fixed;
+	z-index: -1;
 	max-height: 45%;
 	max-width: 50%;
 	opacity: 0.08;
