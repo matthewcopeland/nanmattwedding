@@ -53,14 +53,17 @@ iframe {
 
 .rsvp {
 	color: white;
-	border: 1px solid white;
+	border: 1px solid rgba(255,255,255, 0.5);
 	display: inline-block;
 	margin: 0 auto;
 	padding: .5em 3em;
+	transition: all 0.2s;
 }
 
 .rsvp:hover {
 	text-decoration: none;
+	border-color: white;
+	background: rgba(255,255,255, 0.08);
 }
 
 .corner {
