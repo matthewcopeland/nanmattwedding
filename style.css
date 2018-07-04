@@ -9,6 +9,7 @@
 }
 
 html, body {
+	min-height: 100vh;
 	hight: 100%;
 	width: 100%;
 	margin: 0;
@@ -25,7 +26,7 @@ html {
 body {
 	height: 100%;
 	padding: 40px 20px;
-	border: 1em solid rgba(255,255,255, 0.1);
+	border: 2px solid rgba(255,255,255, 0.1);
 }
 
 h1 {
@@ -62,3 +63,32 @@ iframe {
 	text-decoration: none;
 }
 
+.corner {
+	position: fixed;
+	max-height: 45%;
+	max-width: 50%;
+	opacity: 0.08;
+}
+
+.corner:first-of-type { 
+	top: 0;
+	left: 0;
+}
+
+.corner:nth-of-type(2) {
+	top: 0;
+	right: 0;
+	transform: rotateY(180deg);
+}
+
+.corner:nth-of-type(3) {
+	bottom: 0;
+	left: 0;
+	transform: rotateX(180deg);
+}
+
+.corner:nth-of-type(4) {
+	bottom: 0;
+	right: 0;
+	transform: rotateY(180deg) rotateX(180deg);
+}
