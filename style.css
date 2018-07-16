@@ -48,8 +48,9 @@ a:hover {
 
 iframe {
 	max-width: 600px;
-	margin-top: 2em;
+	margin: 2em auto;
 }
+
 
 .rsvp {
 	color: white;
@@ -64,6 +65,18 @@ iframe {
 	text-decoration: none;
 	border-color: white;
 	background: rgba(255,255,255, 0.08);
+}
+
+.bg {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: url("pandemonium.jpg") bottom center no-repeat;
+	background-size: cover;
+	opacity: 0.08;
 }
 
 .corner {
@@ -95,4 +108,14 @@ iframe {
 	bottom: 0;
 	right: 0;
 	transform: rotateY(180deg) rotateX(180deg);
+}
+
+.pics {
+	margin-top: 2em;
+}
+
+.pics img {
+	max-width: 80%;
+	display: block;
+	margin: 0 auto;
 }
